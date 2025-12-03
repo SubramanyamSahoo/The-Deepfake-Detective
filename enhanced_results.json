@@ -1,0 +1,42 @@
+{
+  "config": {
+    "model": "Qwen/Qwen2-VL-2B-Instruct",
+    "num_real_samples": 250,
+    "num_fake_samples": 250,
+    "sae_latent_dim": 16384,
+    "extended_thinking": true
+  },
+  "stage1": {
+    "full_model.model.visual.blocks.0.attn.proj": 50.37721271514893,
+    "full_model.model.visual.blocks.0.attn": 50.36404125213623,
+    "full_model.model.visual.blocks.0.mlp": 45.632998580932615,
+    "full_model.model.visual.blocks.6.attn.proj": 38.307011413574216,
+    "full_model.model.visual.blocks.6.attn": 38.26984962463379,
+    "full_model.model.visual.blocks.6.mlp": 37.32791355133057,
+    "full_model.model.visual.blocks.12.attn.proj": 29.593841857910157,
+    "full_model.model.visual.blocks.12.attn": 29.528940277099608,
+    "full_model.model.visual.blocks.12.mlp": 28.265171623229982,
+    "full_model.model.visual.blocks.18.attn.proj": 27.90409923553467,
+    "full_model.model.visual.blocks.18.attn": 27.95856119155884,
+    "full_model.model.visual.blocks.18.mlp": 26.619248123168944,
+    "full_model.model.visual.blocks.24.attn.proj": 28.184146995544435,
+    "full_model.model.visual.blocks.24.attn": 28.199697227478026,
+    "full_model.model.visual.blocks.24.mlp": 27.19995538711548,
+    "full_model.model.visual.blocks.31.attn.proj": 13.493326139450073,
+    "full_model.model.visual.blocks.31.attn": 13.473685121536255,
+    "full_model.model.visual.blocks.31.mlp": 12.017299242019654
+  },
+  "stage2": {
+    "mean_sparsity": 0.20794343948364258,
+    "mean_selectivity": 0.11661528050899506
+  },
+  "stage2b": {
+    "num_artifacts": 4
+  },
+  "stage3": {
+    "num_steering_curves": 5
+  },
+  "stage4": {
+    "extended_thinking_completed": true
+  }
+}
